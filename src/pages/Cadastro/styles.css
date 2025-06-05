@@ -1,0 +1,30 @@
+/* src/pages/Cadastro/styles.css */
+
+.pagina-cadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 32px;
+  background-color: #f4f4f4;
+}
+
+.pagina-cadastro .container {
+  background-color: white;
+  padding: 32px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  text-align: center;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .pagina-cadastro .container {
+    width: 100%;
+    padding: 20px;
+  }
+}

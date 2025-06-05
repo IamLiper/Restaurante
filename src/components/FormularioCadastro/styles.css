@@ -1,0 +1,121 @@
+/* src/components/FormularioCadastro/styles.css */
+
+.container {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .container img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #284ea7;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    width: 100%;
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  input,
+  select {
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus,
+  select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  input:invalid,
+  select:invalid {
+    border-color: #dc3545;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #28a745;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover,
+  button:focus {
+    background-color: #218838;
+    outline: none;
+  }
+  
+  .link-pratos {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .link-pratos:hover,
+  .link-pratos:focus {
+    background-color: #0056b3;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  @media (max-width: 400px) {
+    .container {
+      padding: 20px 10px;
+    }
+    input,
+    select,
+    button,
+    .link-pratos {
+      font-size: 12px;
+      padding: 10px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+  }

@@ -1,0 +1,75 @@
+/* src/pages/Inicial/styles.css */
+
+.pagina-inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 32px;
+    background-color: #f4f4f4;
+  }
+  
+  .pagina-inicial .container {
+    background-color: white;
+    padding: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .pagina-inicial .container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #284ea7;
+  }
+  
+  .pagina-inicial .container p {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .pagina-inicial .container .link-cadastrar {
+    background-color: green;
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    border-color: black;
+    margin-top: 20px;
+  }
+
+  .pagina-inicial .container .link-cadastrar:hover {
+    background-color: rgb(7, 189, 7);
+    transform: translateY(2px);
+  }
+  .pagina-inicial .container .link-lista {
+    background-color: green;
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    border-color: black;
+    margin-top: 20px;
+  }
+
+  .pagina-inicial .container .link-lista:hover {
+    background-color: rgb(7, 189, 7);
+    transform: translateY(2px);
+  }
+  
+  @media (max-width: 600px) {
+    .pagina-inicial .container {
+      width: 100%;
+      padding: 20px;
+    }
+    .pagina-inicial .container h2 {
+      font-size: 24px;
+    }
+    .pagina-inicial .container p {
+      font-size: 14px;
+    }
+  }
